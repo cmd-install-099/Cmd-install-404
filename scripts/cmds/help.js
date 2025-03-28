@@ -26,7 +26,7 @@ function formatFonts(text) {
 
 module.exports = {
   config: {
-    name: "help2",
+    name: "help",
     version: "1.20",
     author: "Arafat",
     countDown: 5,
@@ -68,7 +68,7 @@ module.exports = {
         const names = categories[category].commands.sort();
         for (let i = 0; i < names.length; i++) {
           const formattedCmd = formatFonts(names[i]);
-          msg += `┋➥ ${formattedCmd}\n`;
+          msg += `┋𖦹${formattedCmd}\n`;
         }
 
         msg += `┕━━━━━━━━━━━━━☻︎\n`;
